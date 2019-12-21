@@ -1,0 +1,98 @@
+#messages-component {
+  position: fixed;
+  background: white;
+  left: 25%;
+  width: 75%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+h2.room-name {
+  color: rgb(0, 160, 60);
+  border-bottom: 2px solid hsla(44, 30%, 52%, 0.2);
+  font-family: 'Rockwell', cursive;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem 1rem 1rem;
+}
+
+#message-list {
+  padding-bottom: 4rem;
+  width: 93%;
+}
+
+#message-list li {
+  background-color: white;
+  list-style-type: none;
+}
+
+#message-list li:nth-child(odd) {
+  background-color: rgba(66, 61, 48, 0.1);
+}
+
+.username {
+  color: #a0a0a0;
+  font-weight: bold;
+  padding-top: .15rem;
+  margin: 0;
+}
+
+.content {
+  display: inline-block;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+}
+
+.btn-remove-msg {
+  color: #ff911d;
+  border: none;
+  background:none;
+}
+
+.btn-remove-msg:hover {
+  cursor: pointer;
+}
+
+.sent-at {
+  float: right;
+  font-size: .75rem;
+  padding: .25rem;
+}
+
+.msg-updated-at {
+  float: right;
+  font-size: .75rem;
+  background: none;
+  padding-top: .5rem;
+  padding-right: .5rem;
+}
+
+#create-message {
+  bottom: 0;
+  height: 40px;
+  padding: 1rem;
+  position: fixed;
+  width: 75%;
+}
+#create-message input[type="text"] {
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0.5;
+  width: 85%;
+}
+#create-message input[type="submit"] {
+  background: rgba(0, 170, 50, 0.4);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+  margin-left: 1.5%;
+  padding: 0.33rem;
+  width: 8%;
+}
+#create-message input[type="submit"]:hover {
+  background: rgb(20, 75, 20);
+  cursor: pointer;
+}

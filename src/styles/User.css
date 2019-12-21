@@ -1,0 +1,46 @@
+#user-display {
+  background: rgb(0, 200, 40);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  height: 30;
+  padding: 0.5rem;
+  position: absolute;
+}
+
+.user-display-name {
+  float: left;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 50px;
+  margin-left: 0.75rem;
+}
+
+.sign-in-out {
+  background: rgba(0, 160, 50, 0.3);
+  border-radius: 5px;
+  border: none;
+  float: right;
+  height: 35px;
+  padding: 0 0.5rem;
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+}
+
+.sign-in-out:hover {
+  background: rgb(0, 190, 50);
+}
+
+.sign-in-out span {
+  color: red;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 30px;
+  margin-right: 0.5rem;
+  transform: translateY(-0.5rem);
+  vertical-align: bottom;
+}
+
+.sign-in-out input[type="submit"]:active {
+  box-shadow: 0 2px;
+  transform: translateY(3px);
+}

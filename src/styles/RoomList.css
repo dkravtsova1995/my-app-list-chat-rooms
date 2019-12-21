@@ -1,0 +1,82 @@
+.room-name {
+  border:none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  height: 30px;
+  margin-left: 2px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.room-name:hover {
+  cursor: pointer;
+  color: rgb(0, 150, 40);
+  background-color: rgba(3, 130, 40, 0.1);
+}
+
+.room-name:active {
+  box-shadow: 0 2px;
+  transform: translateY(3px);
+}
+
+#room-list .remove {
+  float: right;
+  font-size: 0.7rem;
+  color: rgb(0, 140, 50);
+}
+
+#room-list li:hover .remove {
+  color: hsl(0, 150, 60);
+}
+
+form#create-room {
+  margin-right: 0;
+  right: 0;
+  top: -2px;
+  padding: 1rem;
+  position: absolute;
+  width: 50%;
+  height: 40px;
+}
+
+#create-room label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+#create-room input[type="text"] {
+  width: 87%;
+  background: rgba(0, 150, 40, 0.3);
+  padding: 0.3rem 0.66rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  height: 2.5rem;
+  float: left;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#create-room input[type="submit"] {
+  border: none;
+  padding: 0.1rem;
+  color: red;
+  width: 10%;
+  font-size: 1.5rem;
+  float: left;
+  line-height: 0.7rem;
+  height: 2.5rem;
+  margin-left: 3%;
+  border-radius: 3px;
+}
+
+#create-room input[type="submit"]:hover {
+  cursor: pointer;
+  background: rgba(255, 69, 0, 0.2);
+}
+
+#create-room input[type="submit"]:active {
+  box-shadow: 0 2px;
+  transform: translateY(3px);
+}
